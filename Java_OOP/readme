@@ -1,0 +1,20 @@
+To preapre your environment
+
+Make sure that the JDK is installed on your system. You can download the latest JDK from the official Oracle website: https://www.oracle.com/java/technologies/downloads/
+
+Once you have installed the JDK, set the JAVA_HOME environment variable to the installation directory of the JDK. For example, if you have installed the JDK in C:\Program Files\Java\jdk1.8.0_281, set JAVA_HOME to that path.
+
+Add the bin directory of the JDK to the PATH environment variable. For example, if you have installed the JDK in C:\Program Files\Java\jdk1.8.0_281, add C:\Program Files\Java\jdk1.8.0_281\bin to the PATH variable.
+
+Open a new command prompt window and try running the javac command again.
+
+
+
+To run this program:
+
+Save the code in a file named Main.java
+Compile the code by running javac Main.java  -> this will create 3 classes in your working dir
+Run the program by running java Main
+
+To compile all java files in dir  
+javac *.java
